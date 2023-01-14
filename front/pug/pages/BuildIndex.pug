@@ -1,69 +1,42 @@
+.land
+    //a(href='https://www.favbet.com/uk/sports/event/boxing/35620827/' class='usik-link')
+    .land__logo
+    .land__wrapper
+        .land__image-text Андрій Ярмоленко #[br] #[span бренд-амбасадор]
+        .land__image
+            picture.land__image-main
+                source(media="(max-width: 600px) and (orientation: portrait)" srcset="img/pers-mob.png")
+                source(media="(max-width: 920px) and (orientation: landscape) and (max-height: 450px)" srcset="img/pers-landscape.png")
+                source(media="(min-width: 601px) and (max-width: 1024px) and (orientation: portrait)" srcset="img/pres-desc.png")
+                source(media="(min-width: 601px) and (orientation: landscape)" srcset="img/pers-desc.png")
+                img(src="img/pers-desc.png" alt="Favbet")
+        .land__text
+            .land__text-promo АКЦІЯ
+            .land__text-welcom Вітальний БОНУС
+            .land__text-bonus 4500₴
+            .land__text-spin 100 ФРІСПІНІВ
+            .land__text-wrapper
+                a(href='#').land__text-link Забирай бонус
+                .land__text-info Про умови Акції “Вітальній бонус” можеш дізнатись на сайті <a href='#'>favbet.ua</a>. Період з Акції з 04.02.2022 року по 31.12.2022 року. #[br] Бонус доступний тільки для нових клієнтів
+    .land__footer
+        .land__footer-row
+            .land__footer-text ТОВ «БУКМЕКЕРСЬКА КОМПАНІЯ «ФАВБЕТ». Ліцензія на провадження діяльності з організації та проведення букмекерської діяльності від 28.12.2022 року, видана згідно з рішенням Комісії з регулювання азартних ігор та лотерей про видачу ліцензії № 433 від 13.12.2022. Термін дії ліцензії – 5 років.
+            .land__footer-info
+                .land__footer-info-licensed
+                    img(src='img/21+.svg' alt='21+').land__footer-info-licensed-one.land__footer-info-licensed-img
+                    img(src='img/applePay.svg' alt='applePay').land__footer-info-licensed-two.land__footer-info-licensed-img
+                    img(src='img/googlePay.svg' alt='googlePay').land__footer-info-licensed-three.land__footer-info-licensed-img
+                    img(src='img/visa.svg' alt='visa').land__footer-info-licensed-fourth.land__footer-info-licensed-img
+                    img(src='img/mastercard.svg' alt='mastercard').land__footer-info-licensed-five.land__footer-info-licensed-img
+                .land__footer-info-buttons
+                    a(href='#' aria-label='link-appStore').land__footer-info-buttons-apple
+                        img(src='img/appleBtn.png' alt='apple-store')
+                    a(href='#' aria-label='link-googleStore').land__footer-info-buttons-google
+                        img(src='img/googleBtn.svg' alt='google-store')
 
-.usik
-    a(href='https://www.favbet.com/uk/sports/event/boxing/35620827/' class='usik-link')
-    .usik__logo
-        svg(width="421" height="184")
-            use(href='img/logo.svg#logo')
-    .usik__text
-        .usik__text-top
-            .usik__text-number
-                .usik__text-date 21.08
-                .usik__text-time 00:30
-            .usik__text-info
-                .usik__text-name Олександр Усик
-                .usik__text-enemy
-                    img(src='img/vs.svg' alt="vs")
-                    span Ентоні Джошуа
-        a(href='https://www.favbet.com/uk/sports/event/boxing/35620827/').usik__text-btn Став на чемпіона
-    .usik__pic
-        .usik__image
-            picture.usik__image-main
-                source(media="(max-width: 600px) and (orientation: portrait)" srcset="img/usik-mob.png")
-                source(media="(max-width: 920px) and (orientation: landscape) and (max-height: 450px)" srcset="img/usik-landscape.png")
-                source(media="(min-width: 601px) and (max-width: 1024px) and (orientation: portrait)" srcset="img/usik-tab.png")
-                source(media="(min-width: 601px) and (orientation: landscape)" srcset="img/usik-desc.png")
-                img(src="img/usik-desc.png" alt="Favbet")
-        .usik__quote
-    .usik__footer
-        .usik__footer__row
-            .usik__footer__info
-                .usik__footer__text
-                    .usik__footer__text-left 500₴
-                    .usik__footer__text-right ставка #[br] без ризику
-                .usik__footer__plus +
-                .usik__footer__text
-                    .usik__footer__text-left 4500₴
-                    .usik__footer__text-right На перший депозит
-            .usik__footer__copy
-                .usik__footer__copy-sponsor
-                    svg(width="38" height="25" class='plus')
-                        use(href='img/21+.svg#21+')
-                    svg(width="56" height="23" class='applePay')
-                        use(href='img/applePay.svg#applePay')
-                    svg(width="56" height="23" class='googlePlay')
-                        use(href='img/googlePay.svg#googlePay')
-                    svg(width="38" height="25" class='visa-gray')
-                        use(href='img/visa.svg#visa')
-                    svg(width="38" height="25" class='visa-magenta')
-                        use(href='img/visa-magenta.svg#visaMagenta')
-                    svg(width="36" height="21" class='mastercard')
-                        use(href="img/mastercard.svg#mastercard")
-                .usik__footer__copy-links
-                    a(href='https://www.favbet.com/uk/sports/event/boxing/35620827/').usik__footer__copy-link.usik__footer__copy-apple
-                        picture.usik__image-main
-                            source(media="(max-width: 600px) and (orientation: portrait)" srcset="img/appStore-mob.svg")
-                            source(media="(max-width: 920px) and (orientation: landscape) and (max-height: 450px)" srcset="img/appStore.png")
-                            source(media="(min-width: 601px) and (max-width: 1024px) and (orientation: portrait)" srcset="img/appStore.png")
-                            source(media="(min-width: 601px) and (orientation: landscape)" srcset="img/appStore.png")
-                            img(src="img/appStore.png" alt="Favbet")
-                    a(href='https://www.favbet.com/uk/sports/event/boxing/35620827/').usik__footer__copy-link.usik__footer__copy-google
-                        picture.usik__image-main
-                            source(media="(max-width: 600px) and (orientation: portrait)" srcset="img/googleStore-mob.svg")
-                            source(media="(max-width: 920px) and (orientation: landscape) and (max-height: 450px)" srcset="img/googleStore.png")
-                            source(media="(min-width: 601px) and (max-width: 1024px) and (orientation: portrait)" srcset="img/googleStore.png")
-                            source(media="(min-width: 601px) and (orientation: landscape)" srcset="img/googleStore.png")
-                            img(src="img/googleStore.png" alt="Favbet")
-    .usik__legal УЧАСТЬ В АЗАРТНИХ ІГРАХ МОЖЕ ВИКЛИКАТИ ІГРОВУ ЗАЛЕЖНІСТЬ. ДОТРИМУЙТЕСЯ ПРАВИЛ (ПРИНЦИПІВ) ВІДПОВІДАЛЬНОЇ ГРИ
+    .land__legal УЧАСТЬ В АЗАРТНИХ ІГРАХ МОЖЕ ВИКЛИКАТИ ІГРОВУ ЗАЛЕЖНІСТЬ. ДОТРИМУЙТЕСЯ ПРАВИЛ (ПРИНЦИПІВ) ВІДПОВІДАЛЬНОЇ ГРИ
+    .land__legal-desc
+        .land__legal-desc-wrap
 
 
 
