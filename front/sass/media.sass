@@ -243,9 +243,10 @@
       height: 90px
       bottom: 114px
       &-text
-        font-size: 12px
-        line-height: 20px
+        font-size: 10px
+        line-height: 17px
         max-width: 620px
+        margin: 0 15px 0 0
       &-info
         display: flex
         flex-direction: column
@@ -515,11 +516,26 @@
       top: 20px
       width: 103vh
       &-text
-        left: 35px
-        bottom: 370px
+        left: 405px
+        bottom: auto
         z-index: 5
+        top: 300px
     &__legal
       font-size: 4.75vw
+
+@media screen and (max-width: 1025px) and (orientation: portrait) and (min-height: 1300px)
+  .land
+    &__image
+      &-text
+        left: 445px
+
+@media screen and (max-width: 840px) and (orientation: portrait)
+  .land
+    &__image
+      &-text
+        left: 335px
+        top: 260px
+
 
 @media screen and (max-width: 840px) and (orientation: portrait) and (max-height: 1050px)
   .land
@@ -527,6 +543,9 @@
       left: -160px
       top: 20px
       width: 100vh
+      &-text
+        left: 325px
+        top: 220px
 
 @media screen and (max-width: 840px) and (orientation: portrait) and (max-height: 1010px)
   .land
@@ -553,8 +572,8 @@
     &__image
       &-text
         transform: scale(0.6)
-        left: 7px
-        bottom: 350px
+        left: 245px
+        top: 220px
 
 @media screen and (max-width: 770px) and (orientation: portrait) and (max-height: 910px)
   .land
@@ -571,9 +590,9 @@
         transform: scale(1.15)
     &__image
       &-text
-        transform: scale(0.6)
-        left: 7px
-        bottom: 350px
+        transform: scale(0.65)
+        left: 295px
+        top: 240px
 
 @media screen and (max-width: 735px)
   .land
@@ -586,8 +605,8 @@
     &__image
       &-text
         transform: scale(0.6)
-        left: -5px
-        bottom: 340px
+        left: 250px
+        top: 220px
     &__text
       &-info
         margin: 0px 40px 0 -40px
@@ -720,11 +739,11 @@
       min-height: 113px
       font-size: 6.4vw
       line-height: 28px
-      padding: 0px 19px
+      padding: 0 19px
     &__footer
       border-top: 1px solid rgba(255, 255, 255, 0.2)
       position: static
-      min-height: 325px
+      min-height: 395px
       width: 100%
       padding: 40px 25px 30px
       &-row
@@ -757,6 +776,24 @@
         line-height: 20px
         max-width: 321px
         margin: 0 auto
+
+@media screen and (max-width: 362px) and (orientation: portrait)
+  .land
+    &__text
+      &-bonus
+        font-size: 95px
+        line-height: 74px
+      &-spin
+        font-size: 38px
+        line-height: 48px
+        &::before
+          width: 38px
+          height: 29px
+          top: -14px
+          left: -17px
+      &-welcom
+        font-size: 31px
+        line-height: 32px
 
 @media screen and (max-width: 357px) and (orientation: portrait)
   .land
@@ -805,6 +842,7 @@
       width: 420px
       height: 100%
       &-text
+        top: auto
         transform: scale(0.4)
         left: 168px
         bottom: 118px
@@ -824,9 +862,9 @@
       padding: 0 15px
       height: 75px
       &-text
-        font-size: 10px
-        line-height: 16px
-        margin: 0 20px 0 0
+        font-size: 8px
+        line-height: 14px
+        margin: 0
       &-info
         transform-origin: right center
         transform: scale(0.8)
@@ -881,7 +919,43 @@
         font-size: 8px
         line-height: 14px
 
-@media screen and (min-width: 735px) and (orientation: landscape) and (max-height: 420px)
+@media screen and (min-width: 737px) and (orientation: landscape) and (max-height: 420px)
   .land
     padding: 40px 100px 0 0
+    &__image
+      left: 80px
+      &-text
+        left: 201px
+
+@media screen and (min-width: 737px) and (orientation: landscape) and (max-height: 395px)
+  .land
+    &__image
+      &-text
+        left: 171px
+
+@media screen and (min-width: 737px) and (orientation: landscape) and (max-height: 365px)
+  .land
+    &__image
+      &-text
+        left: 141px
+
+@media screen and (max-width: 675px) and (orientation: landscape) and (max-height: 330px)
+  .land
+    padding: 40px 100px 0 0
+    &__image
+      left: 80px
+      &-text
+        left: 121px
+
+@media screen and (max-width: 635px) and (orientation: landscape)
+  .land
+    &__footer
+      &-text
+        font-size: 7px
+        line-height: 12px
+
+@media screen and (max-width: 560px) and (orientation: landscape)
+  .land
+    &__image
+      width: 322px
 
